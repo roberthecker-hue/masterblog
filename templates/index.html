@@ -9,7 +9,6 @@
 <body>
     <h1>Welcome to My Flask Blog!</h1>
 
-    <!-- Link zur Route /add -->
     <p>
         <a href="{{ url_for('add') }}">➕ Add a New Blog Post</a>
     </p>
@@ -19,6 +18,10 @@
         <h2>{{ post.title }}</h2>
         <p><em>Written by {{ post.author }}</em></p>
         <p>{{ post.content }}</p>
+
+        <form action="{{ url_for('delete', post_id=post.id) }}" method="POST" style="margin-top: 15px;">
+            <button type="submit">Delete</button>
+        </form>
     </div>
     {% endfor %}
 
