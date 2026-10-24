@@ -25,3 +25,48 @@ h1 {
 .post p {
     margin: 10px 0;
 }
+
+/* Add-Formular-Styling für konsistenten Look */
+.post form p {
+    margin-bottom: 15px;
+}
+
+.post label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.post input[type="text"],
+.post textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.post button {
+    background-color: #4F4F4F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.post button:hover {
+    background-color: #333;
+}
+
+a {
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
