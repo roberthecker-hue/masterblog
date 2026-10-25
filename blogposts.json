@@ -6,15 +6,15 @@
         "content": "This is my first post."
     },
     {
-        "id": 2,
-        "author": "Jane Doe",
-        "title": "Second Post",
-        "content": "This is another post."
-    },
-    {
         "id": 4,
         "author": "Frau Holle",
         "title": "Morgen beginnt die Winterzeit",
-        "content": "Ich sch\u00fcttle bald meine Laken aus und dann wird es kalt und wei\u00df."
+        "content": "Ich sch\u00fcttle bald meine Laken aus und dann wird es kalt und wei\u00df. Es beginnt ganz oben in den Bergen und im Januar oder Februar wird es auch das flache Land erreichen. Das wird dann auch Hamburg betreffen.Ob das auch schon an Weihnachten m\u00f6glich sein wird, das steht noch in den sternen. Auch wenn alle sich wei\u00dfe Weihnachten w\u00fcnschen."
+    },
+    {
+        "id": 5,
+        "author": "John Doe",
+        "title": "Third Post",
+        "content": "This is my third post."
     }
 ]
